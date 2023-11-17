@@ -13,13 +13,12 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '8dfec0208659c5cffbe0d241f9026af9',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '上海',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '可可爱爱宝儿',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oofmj6tLUqO30Ujaqf0LGLySiJmE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -42,22 +41,20 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'love_day', date: '2023-08-02' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'oofmj6qlhtwgHu63g7svuB8ZNvbQ',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oofmj6qlhtwgHu63g7svuB8ZNvbQ',
     }
   ],
 
