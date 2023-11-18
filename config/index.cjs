@@ -59,7 +59,7 @@ const USER_CONFIG ={
       id: 'oofmj6qlhtwgHu63g7svuB8ZNvbQ',
     }
   ],
-},
+}
 
 
 module.exports = USER_CONFIG
