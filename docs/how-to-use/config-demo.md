@@ -38,12 +38,11 @@ const USER_CONFIG = {
   SWITCH: {
     /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather_1: true,
-    weather_2: true,
+    weather: true,
 
     /** 节假日 */
     // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts_1: true,
+    holidaytts: true,
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -122,9 +121,9 @@ const USER_CONFIG = {
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '',
       // 所在省份或城市，也可以不填
-      city_1: '上海',
+      province: ' ',
       // 所在城市或县区
-      city_2: '深圳',
+      city: '深圳',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
