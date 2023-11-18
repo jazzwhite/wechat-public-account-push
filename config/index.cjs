@@ -59,10 +59,10 @@ const USER_CONFIG =[ {
       id: 'oofmj6qlhtwgHu63g7svuB8ZNvbQ',
     }
   ],
+},
 
 
   {
-
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wxfe2d2310a8293c3f',
 
